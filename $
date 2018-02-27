@@ -1,0 +1,60 @@
+[?1034h2.4.1 :001 > 
+2.4.1 :002 >   > Message.all
+Loading development environment (Rails 5.0.6)
+SyntaxError: (irb):2: syntax error, unexpected '>'
+> Message.all
+ ^
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console.rb:65:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console_helper.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:78:in `console'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands.rb:18:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.4.1 :003 > 
+2.4.1 :004 >   レコードが0件
+NameError: undefined local variable or method `レコードが0件' for main:Object
+	from (irb):4
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console.rb:65:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console_helper.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:78:in `console'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands.rb:18:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.4.1 :005 >  => #<ActiveRecord::Relation []>
+2.4.1 :006 >   
+2.4.1 :007 >   レコードを1件作成
+SyntaxError: (irb):5: syntax error, unexpected =>
+ => #<ActiveRecord::Relation []>
+   ^
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console.rb:65:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console_helper.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:78:in `console'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands.rb:18:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.4.1 :008 > > message = Message.new(content: 'hello')
+SyntaxError: (irb):8: syntax error, unexpected '>'
+> message = Message.new(content
+ ^
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console.rb:65:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console_helper.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:78:in `console'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands.rb:18:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.4.1 :009 > > message.save
+SyntaxError: (irb):9: syntax error, unexpected '>'
+> message.save
+ ^
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console.rb:65:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/console_helper.rb:9:in `start'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:78:in `console'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /usr/local/rvm/gems/ruby-2.4.1/gems/railties-5.0.6/lib/rails/commands.rb:18:in `<top (required)>'
+	from bin/rails:4:in `require'
+	from bin/rails:4:in `<main>'
+2.4.1 :010 > > message.save = Message.new(content: 'hello')[1P')[1P')[1P')
