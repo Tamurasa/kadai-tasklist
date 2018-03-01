@@ -51,6 +51,6 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: task-list_production
-  username: task-list
+  database: tasl-list-tamura_production
+  username: tasl-list-tamura
   password: <%= ENV['TASK-LIST_DATABASE_PASSWORD'] %>
