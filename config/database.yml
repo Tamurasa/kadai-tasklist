@@ -54,3 +54,4 @@ production:
   database: tasl-list-tamura_production
   username: tasl-list-tamura
   password: <%= ENV['TASL-LIST-TAMURA_DATABASE_PASSWORD'] %>
+  
