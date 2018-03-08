@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-    before_action :require_user_logged_in
+    before_action :require_user_logged_in, [:index, :show, :create, :new]
   
   def index
     @users = User.all.page(params[:page])
